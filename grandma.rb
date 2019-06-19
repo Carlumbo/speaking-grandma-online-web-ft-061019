@@ -3,6 +3,7 @@ def speak_to_grandma(phrase)
     return "I LOVE YOU TOO PUMPKIN!"
   elsif "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
+  elsif "Hi!"
   else
     "huh speak up, sonny!".upcase
     end 
