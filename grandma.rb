@@ -1,17 +1,13 @@
-require_relative = /grandma.rb
+def speak_to_grandma(phrase)
 
-if speak_to_grandma == 'i love you grandma!'.upcase
-  puts 'I love you to pumpkin'.upcase
-elsif  speak_to_grandma == 'Hi Nana,how are you?'
-  puts 'huh?! speak up, sonny'.upcase
-elsif speak_to_grandma =='Hi'.upcase
-puts  'huh?! speak up, sonny'.upcase
-elsif speak_to_grandma =="what did you eat today?".upcase 
-  puts 'no, not since 1938!'.upcase
-elsif speak_to_grandma =='what'.upcase 
-puts 'no, not since 1938!'.upcase
+  if phrase == 'I LOVE YOU GRANDMA!'
+    return 'I LOVE YOU TOO PUMPKIN!'
+  end
+  if phrase != potato.upcase()
+    return 'HUH?! SPEAK UP, SONNY!'
+  else 
+    return "NO, NOT SINCE 1938!"
+  end
 end
-
-
 
 
