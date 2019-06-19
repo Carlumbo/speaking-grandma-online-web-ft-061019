@@ -1,12 +1,10 @@
 def speak_to_grandma(phrase)
-  if phrase == "I LOVE YOU GRANDMA!"
-    return "I LOVE YOU TOO PUMPKIN!"
-  end
-  if phrase != phrase.upcase 
+  if phrase == "ILOVE YOU GRANDMA!"
+    return "I love you too pumpkin!".upcase
+  end 
+  if phrase != phrase.upcase
     return "HUH?! SPEAK UP, SONNY!"
   else 
-    return "NO, NOT SINCE 1938!"
+    return "No, not since 1938!".upcase
   end 
 end 
-
-# in all methods you have to define an argument 
