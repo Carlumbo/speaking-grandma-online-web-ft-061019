@@ -8,3 +8,5 @@ def speak_to_grandma(phrase)
     return "NO, NOT SINCE 1938!"
   end 
 end 
+
+# in all methods you have to define an argument 
