@@ -5,4 +5,4 @@ def speak_to_grandma
     retun "HUH?! SPEAK UP, SONNY!"
   elsif "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
-    
+  elsif "WHAT"
